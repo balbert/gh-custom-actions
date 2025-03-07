@@ -12,6 +12,8 @@ jobs:
       - name: Load & cache dependencies
         #uses: balbert/gh-action-repo # if on github
         uses: ./.github/actions/cached-deps
+        with:
+          caching: 'false'
       - name: Lint code
         run: npm run lint
 
