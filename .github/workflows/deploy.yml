@@ -74,7 +74,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
           bucket: gha-custom-action-hosting
-          #bucket-region: us-east-2
+          bucket-region: us-east-2
           dist-folder: ./dist
 #      - name: Output information
 #        run: |
