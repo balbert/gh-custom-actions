@@ -20,8 +20,8 @@ function run() {
   // Get access to the GitHub context
   // github.context.
 
-  //const websiteUrl = `http://${bucket}.s3-website-${bucketRegion}.amazonaws.com`;
-  //core.setOutput('website-url', websiteUrl); // echo "website-url=..." >> $GITHUB_OUTPUT
+  const websiteUrl = `http://${bucket}.s3-website-${bucketRegion}.amazonaws.com`;
+  core.setOutput('website-url', websiteUrl); // echo "website-url=..." >> $GITHUB_OUTPUT
 
   //core.notice('Hello from my custom JavaScript Actions!');
 }
