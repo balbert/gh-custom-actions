@@ -9,8 +9,8 @@ inputs:
     required: false
     defaullt: 'us-east-1'
   dist-folder:
-  description: 'The folder containing the deplyable files.'
-  required: true
+    description: 'The folder containing the deployable files.'
+    required: true
 runs:
   using: 'node20'
   main: 'main.js'
